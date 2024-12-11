@@ -1,0 +1,196 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    background: none;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.article-image {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 15px; 
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+    margin-top: 10px;
+}
+
+h3 {
+    margin-bottom: 10px; 
+}
+
+nav h3 {
+    margin-bottom: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+nav {
+    margin-bottom: 20px; 
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(49, 11, 4);
+}
+
+.left-items {
+    display: flex; 
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav li img {
+    width: 65px;
+}
+
+.thumbnail {
+    width: 100%;  
+    height: auto; 
+}
+
+.content {
+    flex: 1; 
+}
+
+footer {
+    margin-top: auto; 
+    text-align: center; 
+    background-color: rgb(49, 11, 4); 
+    padding: 10px 0; 
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    background-color: rgb(49, 11, 4);  
+    padding: 20px;
+    position: fixed;  
+    bottom: 0;  
+    width: 100%;  
+}
+
+.webrekomendasi {
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.webrekomendasi img {
+    margin: 0 10px; 
+    width: 50px;
+    height: 50px;
+    
+} 
+
+.content {
+    margin-bottom: 100px;
+}
+
+.judul2 {
+    display: flex;
+    align-items: flex-start; 
+    margin-bottom: 20px; 
+}
+
+.news-item img {
+    margin-right: 15px; 
+    vertical-align: top; 
+    width: 200px; 
+    height: auto; 
+}
+
+.text2 {
+    flex: 1; 
+}
+
+.judul2 img, .text2 h3 {
+    margin-top: 0;
+}
+
+.detil1 {
+    width: 800px;
+    height: auto; 
+    object-fit: cover;
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+}
+
+/* Menggunakan Bootstrap */
+.navbar {
+    background-color: rgb(49, 11, 4);
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(49, 11, 4); 
+    color: white; 
+}
+
+/* Utilitas Bootstrap */
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.container {
+    background-color: white; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+}
+
